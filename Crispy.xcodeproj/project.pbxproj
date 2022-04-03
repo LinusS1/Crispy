@@ -16,6 +16,12 @@
 		15459C6027ED1D1300875679 /* CrispyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15459C5F27ED1D1300875679 /* CrispyTests.swift */; };
 		15459C6A27ED1D1300875679 /* CrispyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15459C6927ED1D1300875679 /* CrispyUITests.swift */; };
 		15459C6C27ED1D1300875679 /* CrispyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15459C6B27ED1D1300875679 /* CrispyUITestsLaunchTests.swift */; };
+		15459C7927ED221500875679 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15459C7827ED221500875679 /* ListView.swift */; };
+		15459C7B27ED224100875679 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15459C7A27ED224100875679 /* Link.swift */; };
+		155B94FF27F951CD00F543AD /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155B94FE27F951CD00F543AD /* PreferencesView.swift */; };
+		1566CD8C27F135B5002ABA35 /* CrispyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566CD8B27F135B5002ABA35 /* CrispyViewModel.swift */; };
+		1566CD8E27F1368D002ABA35 /* CommunicationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566CD8D27F1368D002ABA35 /* CommunicationsService.swift */; };
+		1566CD9027F13818002ABA35 /* GeneralResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566CD8F27F13818002ABA35 /* GeneralResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		15459C6527ED1D1300875679 /* CrispyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrispyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15459C6927ED1D1300875679 /* CrispyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrispyUITests.swift; sourceTree = "<group>"; };
 		15459C6B27ED1D1300875679 /* CrispyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrispyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15459C7827ED221500875679 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		15459C7A27ED224100875679 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		155B94FE27F951CD00F543AD /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		1566CD8B27F135B5002ABA35 /* CrispyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrispyViewModel.swift; sourceTree = "<group>"; };
+		1566CD8D27F1368D002ABA35 /* CommunicationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationsService.swift; sourceTree = "<group>"; };
+		1566CD8F27F13818002ABA35 /* GeneralResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,12 @@
 			children = (
 				15459C4827ED1D0D00875679 /* CrispyApp.swift */,
 				15459C4A27ED1D0D00875679 /* ContentView.swift */,
+				15459C7827ED221500875679 /* ListView.swift */,
+				155B94FE27F951CD00F543AD /* PreferencesView.swift */,
+				15459C7A27ED224100875679 /* Link.swift */,
+				15E1CCE827F808CC00F8E149 /* API Responses */,
+				1566CD8B27F135B5002ABA35 /* CrispyViewModel.swift */,
+				1566CD8D27F1368D002ABA35 /* CommunicationsService.swift */,
 				15459C4C27ED1D1200875679 /* Assets.xcassets */,
 				15459C5127ED1D1200875679 /* Persistence.swift */,
 				15459C5627ED1D1200875679 /* Crispy.entitlements */,
@@ -133,6 +151,14 @@
 				15459C6B27ED1D1300875679 /* CrispyUITestsLaunchTests.swift */,
 			);
 			path = CrispyUITests;
+			sourceTree = "<group>";
+		};
+		15E1CCE827F808CC00F8E149 /* API Responses */ = {
+			isa = PBXGroup;
+			children = (
+				1566CD8F27F13818002ABA35 /* GeneralResponse.swift */,
+			);
+			path = "API Responses";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1566CD8E27F1368D002ABA35 /* CommunicationsService.swift in Sources */,
+				1566CD9027F13818002ABA35 /* GeneralResponse.swift in Sources */,
 				15459C5227ED1D1200875679 /* Persistence.swift in Sources */,
 				15459C5527ED1D1200875679 /* Crispy.xcdatamodeld in Sources */,
+				15459C7927ED221500875679 /* ListView.swift in Sources */,
+				155B94FF27F951CD00F543AD /* PreferencesView.swift in Sources */,
+				1566CD8C27F135B5002ABA35 /* CrispyViewModel.swift in Sources */,
+				15459C7B27ED224100875679 /* Link.swift in Sources */,
 				15459C4B27ED1D0D00875679 /* ContentView.swift in Sources */,
 				15459C4927ED1D0D00875679 /* CrispyApp.swift in Sources */,
 			);
@@ -431,8 +463,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Crispy/Preview Content\"";
 				DEVELOPMENT_TEAM = P6PV2R9443;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -458,8 +492,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Crispy/Preview Content\"";
 				DEVELOPMENT_TEAM = P6PV2R9443;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
