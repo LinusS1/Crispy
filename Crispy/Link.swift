@@ -11,7 +11,7 @@ struct Link: Identifiable, Codable {
     var id: Int
 
     var name: String
-    var description: String
+    var description: String?
     var url: URL
     var isPublic: Bool
     

@@ -30,4 +30,14 @@ struct CommunicationsService {
         
         return decodedData.data
     }
+    
+    func newLink(withData data: Data) async throws {
+        var linkRequest = URLRequest(url: apiHost.appendingPathComponent("api").appendingPathComponent("link"))
+        linkRequest.addValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+        linkRequest.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        linkRequest.httpMethod = "POST"
+        linkRequest.timeoutInterval = 30
+        
+        let (_, _) = try await URLSession.shared.upload(for: linkRequest, from: data)
+    }
 }

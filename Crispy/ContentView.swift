@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isAddingLink = false
+    
     var body: some View {
         ListView(links: ListView_Previews.links)
+            .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                    Button {
+                        isAddingLink.toggle()
+                    } label: {
+                        Label("New Link", systemImage: "link.badge.plus")
+                    }
+                    .popover(isPresented: $isAddingLink) {
+                        NewLinkView(isAddingLink: $isAddingLink)
+                    }
+                }
+            }
     }
 }
 

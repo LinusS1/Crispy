@@ -22,6 +22,7 @@
 		1566CD8C27F135B5002ABA35 /* CrispyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566CD8B27F135B5002ABA35 /* CrispyViewModel.swift */; };
 		1566CD8E27F1368D002ABA35 /* CommunicationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566CD8D27F1368D002ABA35 /* CommunicationsService.swift */; };
 		1566CD9027F13818002ABA35 /* GeneralResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566CD8F27F13818002ABA35 /* GeneralResponse.swift */; };
+		15E99A4828053C5D0064F3E8 /* NewLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E99A4728053C5D0064F3E8 /* NewLinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		1566CD8B27F135B5002ABA35 /* CrispyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrispyViewModel.swift; sourceTree = "<group>"; };
 		1566CD8D27F1368D002ABA35 /* CommunicationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationsService.swift; sourceTree = "<group>"; };
 		1566CD8F27F13818002ABA35 /* GeneralResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralResponse.swift; sourceTree = "<group>"; };
+		15E99A4728053C5D0064F3E8 /* NewLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		15459C3C27ED1D0D00875679 = {
 			isa = PBXGroup;
 			children = (
+				15E99A4728053C5D0064F3E8 /* NewLinkView.swift */,
 				15459C4727ED1D0D00875679 /* Crispy */,
 				15459C5E27ED1D1300875679 /* CrispyTests */,
 				15459C6827ED1D1300875679 /* CrispyUITests */,
@@ -294,6 +297,7 @@
 				1566CD8E27F1368D002ABA35 /* CommunicationsService.swift in Sources */,
 				1566CD9027F13818002ABA35 /* GeneralResponse.swift in Sources */,
 				15459C5227ED1D1200875679 /* Persistence.swift in Sources */,
+				15E99A4828053C5D0064F3E8 /* NewLinkView.swift in Sources */,
 				15459C5527ED1D1200875679 /* Crispy.xcdatamodeld in Sources */,
 				15459C7927ED221500875679 /* ListView.swift in Sources */,
 				155B94FF27F951CD00F543AD /* PreferencesView.swift in Sources */,
